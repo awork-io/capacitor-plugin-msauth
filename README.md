@@ -1,6 +1,9 @@
 # Capacitor Plugin MS auth
 This plugin contains an implementation of MSAL for Capacitor. 
 
+This repo is cloned from `@recognizebv/capacitor-plugin-msaut` and should be used until
+the original repo is updated to support Capacitor v5.
+
 ## Installation
 * `yarn add @recognizebv/capacitor-plugin-msauth`
 * `npx cap sync`
