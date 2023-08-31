@@ -5,7 +5,7 @@ This repo is cloned from `@recognizebv/capacitor-plugin-msaut` and should be use
 the original repo is updated to support Capacitor 5.
 
 ## Installation
-* `yarn add @recognizebv/capacitor-plugin-msauth`
+* `yarn add @meetq/capacitor-plugin-msauth`
 * `npx cap sync`
 * Create an app registration
 * In the app registration, go to Authentication, and then Add platform, and then iOS/macOS
@@ -30,7 +30,7 @@ the original repo is updated to support Capacitor 5.
     <string>msauthv3</string>
 </array>
 ```
-* (iOS) Add `import RecognizebvCapacitorPluginMsauth` to the top of the AppDelegate file to ensure that the library is linked
+* (iOS) Add `import MeetqCapacitorPluginMsauth` to the top of the AppDelegate file to ensure that the library is linked
 * (iOS) if your app's AppDelegate already implements a `application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool` function, you should add the following code inside this method:
 ```swift
 if MsAuthPlugin.checkAppOpen(url: url, options: options) == true {
